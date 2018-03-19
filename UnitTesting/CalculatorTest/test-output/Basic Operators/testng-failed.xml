@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Basic Operators]">
+  <test thread-count="5" name="TestNgGroups(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="basicOperations"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.test.calculator.suites.test.positive.BasicOperators">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testPow" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="multTest" invocation-numbers="1 3"/>
+        </methods>
+      </class> <!-- com.epam.test.calculator.suites.test.positive.BasicOperators -->
+    </classes>
+  </test> <!-- TestNgGroups(failed) -->
+</suite> <!-- Failed suite [Basic Operators] -->

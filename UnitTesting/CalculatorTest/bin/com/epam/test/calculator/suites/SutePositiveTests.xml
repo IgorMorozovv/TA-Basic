@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic Operators">
+	<test name="TestNgGroups"  parallel= "methods" thread-count="10">
+	
+		<groups>
+			<run>
+				<include name="basicOperations"></include>							
+			</run>
+		</groups>
+		
+		<classes>
+
+			<class name="com.epam.test.calculator.suites.test.positive.BasicOperators">
+				<methods>
+					<exclude name="sumTest"></exclude>
+				</methods>
+			</class>
+			<class
+				name="com.epam.test.calculator.suites.test.positive.TrigonometricOperators">
+			</class>
+		</classes>
+	</test>
+</suite>

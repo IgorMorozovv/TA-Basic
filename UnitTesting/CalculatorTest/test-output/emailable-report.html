@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Basic Operators</th></tr>
+<tr><td><a href="#t0">TestNgGroups</a></td><td class="num">13</td><td class="num">0</td><td class="num attn">3</td><td class="num">58</td><td>basicOperations</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Basic Operators</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestNgGroups &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.epam.test.calculator.suites.test.positive.BasicOperators</td><td><a href="#m0">multTest</a></td><td rowspan="2">1521463745750</td><td rowspan="2">9</td></tr><tr class="failedeven"><td><a href="#m1">multTest</a></td></tr><tr class="failedeven"><td><a href="#m2">testPow</a></td><td rowspan="1">1521463745740</td><td rowspan="1">9</td></tr><tr><th colspan="4">TestNgGroups &#8212; passed</th></tr><tr class="passedeven"><td rowspan="13">com.epam.test.calculator.suites.test.positive.BasicOperators</td><td><a href="#m3">divTest</a></td><td rowspan="5">1521463745758</td><td rowspan="5">3</td></tr><tr class="passedeven"><td><a href="#m4">divTest</a></td></tr><tr class="passedeven"><td><a href="#m5">divTest</a></td></tr><tr class="passedeven"><td><a href="#m6">divTest</a></td></tr><tr class="passedeven"><td><a href="#m7">divTest</a></td></tr><tr class="passedeven"><td><a href="#m8">multTest</a></td><td rowspan="3">1521463745740</td><td rowspan="3">9</td></tr><tr class="passedeven"><td><a href="#m9">multTest</a></td></tr><tr class="passedeven"><td><a href="#m10">multTest</a></td></tr><tr class="passedeven"><td><a href="#m11">testIsPositive</a></td><td rowspan="1">1521463745739</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m12">testPow</a></td><td rowspan="4">1521463745758</td><td rowspan="4">1</td></tr><tr class="passedeven"><td><a href="#m13">testPow</a></td></tr><tr class="passedeven"><td><a href="#m14">testPow</a></td></tr><tr class="passedeven"><td><a href="#m15">testPow</a></td></tr></tbody>
+</table>
+<h2>TestNgGroups</h2><h3 id="m0">com.epam.test.calculator.suites.test.positive.BasicOperators#multTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3.92351654564654</td><td>1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [3.92351654564654] but found [3.0]
+	at com.epam.test.calculator.suites.test.positive.BasicOperators.multTest(BasicOperators.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.epam.test.calculator.suites.test.positive.BasicOperators#multTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1000.2</td><td>3</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [-3000.6000000000004] but found [-3001.0]
+	at com.epam.test.calculator.suites.test.positive.BasicOperators.multTest(BasicOperators.java:66)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.epam.test.calculator.suites.test.positive.BasicOperators#testPow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>20</td><td>3.9</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.epam.test.calculator.suites.test.positive.BasicOperators.testPow(BasicOperators.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.epam.test.calculator.suites.test.positive.BasicOperators#divTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1000.2</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.epam.test.calculator.suites.test.positive.BasicOperators#divTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>-10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.epam.test.calculator.suites.test.positive.BasicOperators#divTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.epam.test.calculator.suites.test.positive.BasicOperators#divTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>20</td><td>3.9</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.epam.test.calculator.suites.test.positive.BasicOperators#divTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3.92351654564654</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.epam.test.calculator.suites.test.positive.BasicOperators#multTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>20</td><td>3.9</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.epam.test.calculator.suites.test.positive.BasicOperators#multTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>-10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.epam.test.calculator.suites.test.positive.BasicOperators#multTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.epam.test.calculator.suites.test.positive.BasicOperators#testIsPositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.epam.test.calculator.suites.test.positive.BasicOperators#testPow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3.92351654564654</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.epam.test.calculator.suites.test.positive.BasicOperators#testPow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>0</td><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.epam.test.calculator.suites.test.positive.BasicOperators#testPow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>-1000.2</td><td>3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.epam.test.calculator.suites.test.positive.BasicOperators#testPow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>-10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

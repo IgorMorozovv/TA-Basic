@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic Operators">
+	<test name="TestNgGroups"  parallel= "methods" thread-count="10">		
+		
+		<classes>
+		
+			<class name="com.epam.test.calculator.suites.test.negative.BasicOperators"></class>
+			<class name="com.epam.test.calculator.suites.test.negative.TrigonometricOperators"></class>
+			
+		</classes>
+	</test>
+</suite>
