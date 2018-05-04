@@ -1,0 +1,4 @@
+<configuration>
+<browserName>chrome</browserName>
+<pathToData>data/forDraft.csv</pathToData>
+</configuration>

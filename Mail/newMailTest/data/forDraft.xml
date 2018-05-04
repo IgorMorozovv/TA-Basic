@@ -1,0 +1,13 @@
+<?xml version = "1.0"?>
+<mail>
+	<draft>
+		<to>gadwil@yandex.ru</to>
+		<subject>test message №1</subject>
+		<message>Some message №1</message>
+	</draft>
+	<draft>
+		<to>gadwil@yandex.ru</to>
+		<subject>test message №2</subject>
+		<message>Some message №2</message>
+	</draft>
+</mail>
